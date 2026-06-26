@@ -7,7 +7,7 @@ terraform {
 provider "aws" { region = var.region }
 
 module "dg-ec2-instance-harness-repo" {
-  source  = "https://module.app.harness.io/l7HREAyVTnyfUsfUtPZUowN0dbHpRgRDOgg09wZK__gg/dg-ec2-instance-harness-repo/aws"
+  source  = "module.app.harness.io/l7HREAyVTnyfUsfUtPZUowN0dbHpRgRDOgg09wZK__gg/dg-ec2-instance-harness-repo"
   version = "v1.0.0"
 }
 
